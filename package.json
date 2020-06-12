@@ -1,0 +1,20 @@
+{
+  "name": "rfpio-test-framework",
+  "version": "1.0.0",
+  "description": "RFPIO Test Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "generateReports": "cypress run --reporter mochawesome",
+    "openTestRunner": "cypress open"
+  },
+  "author": "Mounaraj Elangovan",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.3.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^4.0.1"
+  }
+}

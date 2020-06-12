@@ -1,0 +1,10 @@
+{
+  "chromeWebSecurity": false,
+  "reporter": "mochawesome",
+  "env": {
+    "demourl" : "http://juliemr.github.io/protractor-demo/",
+    "url": "https://dev1.rfpio.com/#/page/login",
+    "apiurl": "https://dev1.rfpio.com" 
+
+  }
+}
